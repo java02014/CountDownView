@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:countdown="http://schemas.android.com/apk/res/com.scorpioneal.countdownview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_black"
+    android:orientation="vertical" >
+
+    <com.scorpioneal.countdownview.CountDownView
+        android:id="@+id/countdownview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        countdown:background="#FFFF00"
+        countdown:text="This is PlanA"
+        countdown:textColor="#0000FF"
+        countdown:time="30" >
+    </com.scorpioneal.countdownview.CountDownView>
+
+    <com.scorpioneal.countdownview.CountDownView
+        android:id="@+id/countdownview1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        countdown:background="#00FFFF"
+        countdown:text="This is PlanB"
+        countdown:textColor="#FF0000"
+        countdown:time="40" >
+    </com.scorpioneal.countdownview.CountDownView>
+
+    <com.scorpioneal.countdownview.CountDownView
+        android:id="@+id/countdownview2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        countdown:background="#FF00FF"
+        countdown:text="This is PlanC"
+        countdown:textColor="#00FF00"
+        countdown:time="50" >
+    </com.scorpioneal.countdownview.CountDownView>
+
+</LinearLayout>
